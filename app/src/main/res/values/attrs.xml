@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleOrCardImageView">
+        <!--圆角大小-->
+        <attr name="borderRadius" format="dimension"/>
+        <!---->
+        <attr name="imageType">
+            <enum name="circle" value="1"/>
+            <enum name="round" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
